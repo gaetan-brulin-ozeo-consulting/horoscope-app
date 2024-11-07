@@ -1,0 +1,19 @@
+{
+  "name": "horoscope-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "Gaëtan Brulin",
+  "license": "ISC",
+  "description": "API to retrieve corresponding zodiac sign according to a birthdate.",
+  "dependencies": {
+    "express": "^4.21.1",
+    "horoscope": "^2.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
